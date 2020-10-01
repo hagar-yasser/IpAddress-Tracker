@@ -18,22 +18,11 @@ html {
   z-index: -10;
 }
 
-#bg-pattern {
 
-  width: 100%;
-  height: 30%;
-}
 
-#pattern {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
 
-#mapid {
 
-  height: 70%;
-}
+
 
 .main-container {
   width: 70%;
@@ -114,6 +103,23 @@ html {
 
 
 @media only screen and (min-width: 1046px) {
+  #pattern {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #bg-pattern {
+
+    width: 100%;
+    height: 30%;
+  }
+
+  #mapid {
+
+    height: 70%;
+  }
+
   .search-area {
     width: 30%;
     height: 40px;
@@ -165,6 +171,23 @@ html {
 }
 
 @media only screen and (max-width: 1045px) {
+  #pattern {
+    margin: 0;
+    width: 100%;
+    height: 150%;
+  }
+
+  #bg-pattern {
+
+    width: 100%;
+    height: 70%;
+  }
+
+  #mapid {
+
+    height: 80%;
+  }
+
   .search-area {
     width: 70%;
     height: 40px;
